@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="js.js"></script>
+  		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="form">
+			<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xtl1/v/t34.0-12/13249331_906352012827937_1566945391_n.png?oh=859ad2e4833b62fe9aa71e535faaf7a4&oe=57403009&__gda__=1463805540_a543c9a666a2e7edc047a878bd98b162" style="width:215px;height:135px;margin-left: 27%">
+			<h2>From:</h2>
+
+			<div class="container">
+				<ul>
+	  			<li>
+					<input type="radio" id="f-option" name="from" value="pre"> <label for="f-option">Prefix</label>
+					<div class="check"></div>
+				</li>
+				<li>
+					<input type="radio" id="s-option" name="from" value="in"> <label for="s-option">Infix</label>
+					<div class="check"><div class="inside"></div></div>
+				</li>
+				<li>
+					<input type="radio" id="t-option" name="from" value="post"> <label for="t-option">Postfix</label>
+					<div class="check"><div class="inside"></div></div>
+				</li>
+				</ul>
+			</div>
+			<h2>To:</h2>
+			<div class="container">
+				<ul>
+	  			<li>
+					<input type="radio" id="x-option" name="to" value="pre"> <label for="x-option">Prefix</label>
+					<div class="check"></div>
+				</li>
+				<li>
+				<input type="radio" id="y-option" name="to" value="in"> <label for="y-option">Infix</label>
+					<div class="check"></div>
+				</li>
+				<li>
+				<input type="radio" id="z-option"name="to" value="post"> <label for="z-option">Postfix</label>
+					<div class="check"></div>
+				</li>
+				</ul>
+			</div>	
+			<div class="question">	  	
+				<input type="text" id="input" required/>
+				<label>Input</label>
+			</div>
+			<div class="question">	 
+				<button id="button" onclick="mainFunction()">CALCULATE</button>
+				<input type="text" id="output"/>
+				<label>Output</label>
+			</div>
+		</div>
+
+	</body>
+
+
+	
+</html>
